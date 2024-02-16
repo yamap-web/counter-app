@@ -30,22 +30,20 @@
   <body>
     <div class="vh-100 d-flex align-items-center">
       <div
-        class="container d-flex flex-column align-items-center mx-auto py-5 bg-light text-center"
+        class="container d-flex flex-column align-items-center py-5 bg-light text-center"
       >
         <h1>カウンターアプリ</h1>
         <div class="card mt-3 border-0 shadow">
-          <div class="card-body px-5">
-            <h2 id="counter">0</h2>
-            <div class="d-flex flex-column mx-5 gap-2">
-              <button id="up" class="btn btn-primary text-white">
-                <i class="bi bi-plus-square"></i>
-                <span>カウントアップ</span>
-              </button>
-              <button id="down" class="btn btn-secondary text-white">
-                <i class="bi bi-dash-square"></i>
-                <span>カウントダウン</span>
-              </button>
-            </div>
+          <div class="card-body d-flex flex-column my-2 mx-5 gap-2">
+            <p id="counter" class="mb-0 fs-5">0</p>
+            <button id="up" class="btn btn-primary text-white">
+              <i class="bi bi-plus-square"></i>
+              <span>カウントアップ</span>
+            </button>
+            <button id="down" class="btn btn-secondary text-white">
+              <i class="bi bi-dash-square"></i>
+              <span>カウントダウン</span>
+            </button>
           </div>
         </div>
       </div>
